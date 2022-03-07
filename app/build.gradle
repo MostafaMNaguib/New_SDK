@@ -89,19 +89,8 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
 
+    implementation 'com.github.MostafaMNaguib:VlensSdk:1.0.7'
+
+
 }
 
-/*
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-
-                groupId = 'com.github.MostafaMNaguib'
-                artifactId = 'newsdk'
-                version = '1.0'
-            }
-        }
-    }
-}*/
